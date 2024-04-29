@@ -3,6 +3,7 @@
   "displayName": "KCV",
   "description": "",
   "version": "0.0.1",
+  "repository": "https://github.com/MilesVII/vscode.kcv",
   "engines": {
     "vscode": "^1.85.0"
   },
