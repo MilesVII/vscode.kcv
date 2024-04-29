@@ -1,0 +1,21 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "keys, comments, values format",
+	"patterns": [
+		{
+			"patterns": [{
+				"name": "string.double.quoted.kcv",
+				"match": "^(?!\t)\\s*(\\S+)\\s*|\/{2}$"
+			}]
+		},
+		{
+			"patterns": [
+				{
+					"name": "comment.line.double-dash.kcv",
+					"match": "(\/{2}.*)$"
+				}
+			]
+		}
+	],
+	"scopeName": "text.kcv"
+}

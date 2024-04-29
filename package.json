@@ -1,0 +1,25 @@
+{
+  "name": "kcv",
+  "displayName": "KCV",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "kcv",
+      "aliases": ["KCV", "keys, comments, values"],
+      "extensions": [".kcv.txt"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "kcv",
+      "scopeName": "text.kcv",
+      "path": "./syntaxes/kcv.tmLanguage.json"
+    }]
+  }
+}
